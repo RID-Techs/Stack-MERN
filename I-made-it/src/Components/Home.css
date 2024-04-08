@@ -1,0 +1,40 @@
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+}
+.form-container input{
+    flex: 1 1 15%;
+    padding: 1em;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgb(1, 104, 104);
+    border-radius: 20px;
+    font-size: 1rem;
+    caret-color: #ffffff;
+}
+#Description {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: rgb(1, 104, 104);
+    border-radius: 20px;
+    font-size: 1.1rem;
+    padding: 1em;
+    caret-color: #ffffff;
+}
+::placeholder{
+    color: #ffffff79;
+}
+#submit{
+    border: none;
+    outline: none;
+    color: #363636;
+    background-color: rgb(206, 175, 3);
+    border-radius: 20px;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    padding: 0.5em;
+}
